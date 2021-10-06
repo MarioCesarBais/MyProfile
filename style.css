@@ -1,0 +1,92 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: FF865E;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  font-size: 1em;
+}
+
+button {
+  background-color: rgb(253, 252, 253);
+  font-weight:900;
+  color: rgb(7, 7, 7);
+  align-items: center;
+  margin: 0 auto;
+  display: block;
+  height: 2rem;
+}
+
+button:hover {
+  background-color: crimson;
+}
+
+#initial {
+  border-radius: 3em;
+  width: 6em;
+  align-items: center;
+  margin: 0 auto;
+  display: block;
+}
+.list-in-line {
+  margin: 8px;
+  text-align: center;
+}
+.list-in-line li {
+  display: inline-block;
+  margin: 8px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+div {
+  margin: 2em 5em;
+  width: auto
+}
+
+h1, h2{
+  background-color:rgb(200, 200, 200);
+  text-align: center;
+  border-radius: 2rem;
+  width:fit-content;
+  margin: 1em auto;
+}
+
+.list-in-line li:hover {
+  background-color: crimson;
+}
+
+p {
+  background-color: rgb(187, 185, 185);
+  padding: 1rem 2rem;
+  text-align: justify;
+  border-radius: 2rem;
+  line-height: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: fit-content;
+  background-color: rgb(243, 230, 230);
+  margin: 0 auto;
+}
